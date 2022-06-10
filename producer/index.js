@@ -14,7 +14,7 @@ const run = async () => {
   await producer.send({
     topic: 'test',
     compression: CompressionTypes.GZIP,
-    messages: [{ value: `Hello KafkaJS user! ${Date.now()}` }]
+    messages: [{ value: `Hello KafkaJS user! ${Date.now()}` }, { value: `Hello Nauva! ${Date.now()}` }]
   });
 
   console.log('Sending Message...');
@@ -22,4 +22,4 @@ const run = async () => {
 
 setInterval(() => {
   run().catch(console.error);
-}, 1000);
+}, 5000);
