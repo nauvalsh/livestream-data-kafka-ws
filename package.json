@@ -20,6 +20,8 @@
   "homepage": "https://github.com/kriscfoster/node-kafka-producer-consumer#readme",
   "dependencies": {
     "avsc": "^5.7.3",
-    "kafkajs": "^1.15.0"
+    "kafka-node": "^5.0.0",
+    "kafkajs": "^1.15.0",
+    "websocket": "^1.0.34"
   }
 }
