@@ -1,7 +1,5 @@
 # node-kafka-producer-consumer
 
-Created for [this YouTube tutorial](https://www.youtube.com/watch?v=EiDLKECLcZw).
-
 A kafka producer/consumer proof of concept using node.
 
 ![Screen Shot 2021-04-20 at 09 56 47](https://user-images.githubusercontent.com/17026751/115368228-cbcd0000-a1be-11eb-9d17-6ada1ad5ff98.png)
@@ -21,6 +19,5 @@ A kafka producer/consumer proof of concept using node.
 
 - `sh ./scripts/start-kafka.sh` (New) starts kafka inside docker container.
 - `docker exec -it kafka /opt/bitnami/kafka/bin/kafka-topics.sh --create --partitions 1 --replication-factor 1 --topic test --bootstrap-server localhost:9092` (New) creates topic
-
 
 ![Contoh Producer Consumer](img/contoh-produce-consume.JPG)
